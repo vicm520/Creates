@@ -1,0 +1,9 @@
+No files changed, compilation skipped
+
+Ran 3 tests for test/MemeFactory.t.sol:MemeFactoryTest
+[PASS] testFeeDistributionAccuracy() (gas: 890645)
+[PASS] testMintMeme() (gas: 558879)
+[PASS] testMultipleMints() (gas: 606331)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 2.67ms (1.39ms CPU time)
+
+Ran 1 test suite in 12.05ms (2.67ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)

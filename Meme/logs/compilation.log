@@ -1,0 +1,121 @@
+No files changed, compilation skipped
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/EipToken.sol:4:8
+  |
+4 | import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+  |        -----------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/EipTokenCloneable.sol:4:8
+  |
+4 | import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+  |        -----------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/test/MemeFactory.t.sol:4:8
+  |
+4 | import "forge-std/Test.sol";
+  |        --------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/MemeFactory.sol:4:8
+  |
+4 | import "@openzeppelin/contracts/proxy/Clones.sol";
+  |        ------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/MemeFactory.sol:5:8
+  |
+5 | import "@openzeppelin/contracts/access/Ownable.sol";
+  |        --------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/EipTokenCloneable.sol:5:8
+  |
+5 | import "@openzeppelin/contracts/access/Ownable.sol";
+  |        --------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/MemeFactory.sol:6:8
+  |
+6 | import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+  |        ---------------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/EipTokenCloneable.sol:6:8
+  |
+6 | import "@openzeppelin/contracts/proxy/utils/Initializable.sol";
+  |        -------------------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[mixed-case-function]: function names should use mixedCase
+  --> /mnt/e/viem/CreateAndAA/Meme/src/EipTokenCloneable.sol:12:14
+   |
+12 |     function onERC20Received(address operator, uint256 amount, bytes calldata data) external returns (bytes4);
+   |              ---------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/test/MemeFactory.t.sol:5:8
+  |
+5 | import "../src/MemeFactory.sol";
+  |        ------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/EipToken.sol:5:8
+  |
+5 | import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
+  |        ----------------------------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/test/MemeFactory.t.sol:6:8
+  |
+6 | import "../src/EipTokenCloneable.sol";
+  |        ------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/EipToken.sol:6:8
+  |
+6 | import "@openzeppelin/contracts/access/Ownable.sol";
+  |        --------------------------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> /mnt/e/viem/CreateAndAA/Meme/src/MemeFactory.sol:7:8
+  |
+7 | import "./EipTokenCloneable.sol";
+  |        -------------------------
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[screaming-snake-case-immutable]: immutables should use SCREAMING_SNAKE_CASE
+  --> /mnt/e/viem/CreateAndAA/Meme/src/MemeFactory.sol:17:30
+   |
+17 |     address public immutable tokenTemplate;
+   |                              -------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#screaming-snake-case-immutable
+
