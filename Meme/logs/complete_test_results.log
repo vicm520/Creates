@@ -1,0 +1,23 @@
+No files changed, compilation skipped
+
+Ran 17 tests for test/MemeFactory.t.sol:MemeFactoryTest
+[PASS] testDeactivateAndActivateMeme() (gas: 567982)
+[PASS] testDeployMeme() (gas: 437485)
+[PASS] testDeployMemeValidation() (gas: 37358)
+[PASS] testEdgeCases() (gas: 518949)
+[PASS] testExceedTotalSupply() (gas: 551213)
+[PASS] testExcessETHRefund() (gas: 543632)
+[PASS] testFactoryDeployment() (gas: 21366)
+[PASS] testFeeDistributionAccuracy() (gas: 890645)
+[PASS] testInsufficientPayment() (gas: 423677)
+[PASS] testMintMeme() (gas: 558879)
+[PASS] testMultipleMints() (gas: 606331)
+[PASS] testOwnerDeactivateMeme() (gas: 399663)
+[PASS] testQueryFunctions() (gas: 917618)
+[PASS] testReentrancyProtection() (gas: 537661)
+[PASS] testSetPlatformFeeReceiver() (gas: 21563)
+[PASS] testUnauthorizedDeactivation() (gas: 414016)
+[PASS] testUnauthorizedSetPlatformFeeReceiver() (gas: 13994)
+Suite result: ok. 17 passed; 0 failed; 0 skipped; finished in 10.52ms (10.61ms CPU time)
+
+Ran 1 test suite in 94.59ms (10.52ms CPU time): 17 tests passed, 0 failed, 0 skipped (17 total tests)
