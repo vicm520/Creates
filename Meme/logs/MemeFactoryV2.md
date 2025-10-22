@@ -49,10 +49,7 @@
 
 #### ✅ 边界条件测试
 - `testBoundaryMaxSupply()` - 测试最大供应量边界
-- `testBoundaryMinPrice()` - 测试最小价格边界
-
-### 2. DemoTest (17个测试)
-参考demo.sol的测试逻辑，验证基础功能：
+- `testBoundaryMinPrice()` - 测试最小价格边界：
 
 #### ✅ 基础功能测试
 - `testFactoryDeployment()` - 工厂部署测试
