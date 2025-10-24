@@ -1,0 +1,60 @@
+Ran 8 tests for test/LaunchPadTWAPIntegration.t.sol:LaunchPadTWAPIntegrationTest
+[PASS] testCompleteWorkflow() (gas: 3728969)
+Logs:
+  Starting complete LaunchPad to TWAP workflow test
+  1. Meme token deployed: 0xa38D17ef017A314cCD72b8F199C0e108EF7Ca04c
+  2. Buyer1 minted tokens
+  3. Buyer2 minted tokens
+  4. Liquidity pair created: 0xffD4505B3452Dc22f8473616d50503bA9E1710Ac
+  5. TWAP Oracle deployed: 0xa0Cb889707d426A7A386870A03bc70d1b0697598
+  6. 1 Trading simulation completed
+  6. 2 Trading simulation completed
+  6. 3 Trading simulation completed
+  6. 4 Trading simulation completed
+  6. 5 Trading simulation completed
+  7. TWAP Oracle updated
+  8. Final TWAP prices:
+     - 1 Meme token worth: 1901743345641838351822 wei ETH
+     - 1 ETH worth: 8098256754358161648177 wei Meme tokens
+  Complete workflow test passed successfully!
+
+[PASS] testFactoryAndOracleInitialization() (gas: 22794)
+Logs:
+  Factory initialization test passed
+
+[PASS] testLaunchPadMemeDeployment() (gas: 450486)
+Logs:
+  LaunchPad Meme deployment test passed
+  Meme token address: 0xa38D17ef017A314cCD72b8F199C0e108EF7Ca04c
+
+[PASS] testMemeETHPriceQueries() (gas: 3624288)
+Logs:
+  1 Meme token worth in ETH: 2843601967298578199052
+  1 ETH worth in Meme tokens: 7156398132701421800947
+  Consult price for 1 ETH: 7156398132701421800947
+  Meme/ETH price queries test passed
+
+[PASS] testTWAPAfterLiquidityAddition() (gas: 3467406)
+Logs:
+  TWAP Oracle deployment after liquidity addition test passed
+  Pair address: 0xffD4505B3452Dc22f8473616d50503bA9E1710Ac
+  Oracle address: 0xa0Cb889707d426A7A386870A03bc70d1b0697598
+
+[PASS] testTWAPAfterMultipleTransactions() (gas: 3621716)
+Logs:
+  TWAP after multiple transactions test passed
+
+[PASS] testTWAPStabilityUnderVolatility() (gas: 3637965)
+Logs:
+  TWAP Meme price after volatility (1 Meme in ETH): 950871945324881141045
+  TWAP ETH price after volatility (1 ETH in Meme): 40713153733755942947702
+  TWAP stability under volatility test passed
+
+[PASS] testTWAPTimeElapsedEffect() (gas: 3623241)
+Logs:
+  TWAP time elapsed effect test passed
+  Time elapsed: 88260 seconds
+
+Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 4.19ms (8.63ms CPU time)
+
+Ran 1 test suite in 62.05ms (4.19ms CPU time): 8 tests passed, 0 failed, 0 skipped (8 total tests)
